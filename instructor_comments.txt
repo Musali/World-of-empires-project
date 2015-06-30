@@ -1,0 +1,3 @@
+Excellent work Musa! The page is functioning great. Moving forward I would look into making the page more responsive. Dealing with maps makes responsive layouts tough, but look into having the modal adjust size based on the size of the screen. You can have the popup text scroll vertically.
+
+We reviewed much of this code during our sessions and it is looking great. Please let me know if you have any specific questions.

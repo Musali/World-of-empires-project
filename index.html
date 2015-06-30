@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Empire Map Demo></title>
+  <link rel="stylesheet" href="lib/jquery-jvectormap-2.0.2.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/empirez.css" media="screen">
+</head>
+<body>
+  <header>
+    <div class="title">World of Empires</div>
+    <div class="instruct">Roll over and click on country</div>
+  <div id="world-map" style="width: 80em; height: 40em"></div>
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <a class="modal-link" href="#" target='_blank'>More</a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <!-- // <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+  <script src="http://underscorejs.org/underscore-min.js"></script>
+  <script src="lib/jquery-jvectormap-2.0.2.min.js"></script>
+  <script src="lib/jquery-jvectormap-world-mill-en.js"></script>
+  <script src="js/empirez.js"></script>
+</body>
+</html>
